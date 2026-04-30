@@ -41,7 +41,7 @@ nav .link ul li a:hover {
     box-shadow: 0 4px 15px rgba(75, 109, 251, 0.3);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1280px) {
     nav .link {
         display: none; /* Hide links on mobile to prevent row overflow */
     }
