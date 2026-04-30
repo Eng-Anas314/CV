@@ -43,6 +43,6 @@ nav .link ul li a:hover {
 
 @media (max-width: 1024px) {
     nav .link, .nav-btn {
-        display: none;
+        display: flex;
     }
 }
