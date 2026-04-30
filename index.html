@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="img/x.ico">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h2 data-aos="zoom-in" data-aos-duration="1200">Portfolio</h2>
+        </div>
+        <div class="link">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Pages <i class='bx bx-chevron-down'></i></a></li>
+            </ul>
+        </div>
+        <button class="nav-btn">Download CV</button>
+    </nav>
+
+    <div class="main">
+        <div class="code-overlay">
+void computePID() {
+    error = setpoint - input;
+    integral += error * dt;
+    derivative = (error - prev_error) / dt;
+    output = (Kp * error) + (Ki * integral) + (Kd * derivative);
+    prev_error = error;
+}
+        </div>
+        <div class="main-detail" data-aos="fade-right" data-aos-duration="1200">
+            <p class="greeting">Hey There 👋 I am</p>
+            <h1>Anas Al-Qatwi</h1>
+            <h4>Mechatronics <span>Engineer</span></h4>
+            <p class="description">Specializing in the integration of mechanical systems with embedded software using C++ and Arduino to build functional, automated solutions</p>
+
+            <div class="btn-group">
+                <button class="btn-primary">Contact Me</button>
+                <button class="btn-secondary">Learn More</button>
+            </div>
+        </div>
+
+        <div class="img-container" data-aos="fade-left" data-aos-duration="1200">
+            <div class="circle-bg"></div>
+            
+            <img src="img/python.png" class="floating-logo l-top-left" alt="Python">
+            <img src="img/c++.png" class="floating-logo l-top-right" alt="C++">
+            <img src="img/SW.jpg" class="floating-logo l-bottom-left" alt="SolidWorks">
+            <img src="img/blender.png" class="floating-logo l-bottom-right" alt="Blender">
+            <img src="img/excel.png" class="floating-logo l-left" alt="Excel">
+            <img src="img/kicad.png" class="floating-logo l-right" alt="Kicad">
+
+            <img class="me" src="img/main.png" alt="main-img">
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+    
+    <section class="skills" data-aos="fade-up" data-aos-duration="1200">
+        <div class="skills-container">
+            <h3>Technical <span>Toolbox</span></h3>
+            <div class="skill-grid">
+                <div class="skill-card"><img src="img/python.png" alt="Python"><span>Python</span></div>
+                <div class="skill-card"><img src="img/c++.png" alt="C++"><span>C++</span></div>
+                <div class="skill-card"><img src="img/MS.png" alt="Multisim"><span>Circuit Design</span></div>
+                <div class="skill-card"><img src="img/SW.jpg" alt="SolidWorks"><span>3D Modeling</span></div>
+                <div class="skill-card"><img src="img/kicad.png" alt="Kicad"><span>PCB Designing</span></div>
+                <div class="skill-card"><img src="img/dart.png" alt="Dart"><span>Dart</span></div>
+                <div class="skill-card"><img src="img/blender.png" alt="Blender"><span>3D visualization</span></div>
+                <div class="skill-card"><img src="img/flutter.png" alt="Flutter"><span>Apps Programming</span></div>
+                <div class="skill-card"><img src="img/PS.png" alt="Photoshop"><span>Photoshop</span></div>
+                <div class="skill-card"><img src="img/excel.png" alt="Excel"><span>Data Analysis</span></div>
+                <div class="skill-card"><img src="img/PP.png" alt="PowerPoint"><span>PowerPoint</span></div>
+                <div class="skill-card"><img src="img/C.png" alt="C"><span>C</span></div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
