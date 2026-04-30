@@ -48,6 +48,21 @@ body {
 }
 
 @media (max-width: 480px) {
+
+    .circle-bg {
+        width: 280px; /* Smaller for phones */
+        height: 280px;
+    }
+    
+    .img-container .me {
+        width: 90%; /* Let the image fill the container */
+        margin-top: 30px;
+    }
+
+    .skills, .pillars, .mindset, .current-focus, .main {
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+    }
     .about-hero h1 {
         font-size: 28px; /* Shrink large headers */
     }
